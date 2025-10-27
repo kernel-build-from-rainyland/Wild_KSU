@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       cache-hit: ${{ steps.cache-artifacts.outputs.cache-hit }}
-      cache-key: ${{ steps.generate-cache-key.outputs.cache-key }}
+      cache-key: "artifacts-51659ddd2184040f4baf934669c7fc4f6129c3199d24e1fc089262c183f30a0d"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -49,7 +49,7 @@ jobs:
             cached-artifacts/susfsd
             cached-artifacts/ksud_overlayfs
             cached-artifacts/ksud_magic
-          key: "artifacts-51659ddd2184040f4baf934669c7fc4f6129c3199d24e1fc089262c183f30a0d"
+          key: ${{ steps.generate-cache-key.outputs.cache-key }}
 
   build-lkm:
     needs: check-cache
@@ -178,7 +178,7 @@ jobs:
             cached-artifacts/susfsd
             cached-artifacts/ksud_overlayfs
             cached-artifacts/ksud_magic
-          key: ${{ needs.check-cache.outputs.cache-key }}
+          key: "artifacts-51659ddd2184040f4baf934669c7fc4f6129c3199d24e1fc089262c183f30a0d"
 
       # Download fresh artifacts if cache miss
       - name: Download susfsd
