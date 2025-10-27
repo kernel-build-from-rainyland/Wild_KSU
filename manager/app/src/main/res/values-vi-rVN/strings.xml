@@ -5,19 +5,19 @@
     <string name="issue_report_body_2">Báo cáo ngay khi có thể!</string>
     <string name="issue_report_github">Báo cáo trên GitHub</string>
     <string name="issue_report_telegram">Liên hệ qua Telegram</string>
-    <string name="issue_report_github_link">https://github.com/WildKernels/Wild_KSU/issues</string>
+    <string name="issue_report_github_link">https://github.com/KernelSU-Next/KernelSU-Next/issues</string>
     <string name="issue_report_telegram_link">https://t.me/Wild_Kernels/2</string>
     <string name="confirm">Xác nhận</string>
     <string name="home">Trang chủ</string>
     <string name="home_not_installed">Chưa được cài đặt</string>
     <string name="home_click_to_install">Nhấn để cài đặt</string>
     <string name="lkm_mode_deprecated">Chế độ LKM hiện đã không còn được hỗ trợ!</string>
-    <string name="lkm_alternative_suggestion">Cài đặt kernel GKI hoặc tích hợp Wild KSU vào thiết bị của bạn.</string>
+    <string name="lkm_alternative_suggestion">Cài đặt kernel GKI hoặc tích hợp KernelSU Next vào thiết bị của bạn.</string>
     <string name="home_working">Đang hoạt động</string>
     <string name="home_working_version">Phiên bản: %d</string>
     <string name="home_module_update_count">Cập nhật: %d</string>
-    <string name="home_failure">Chữ ký Wild KSU v2 không tìm thấy trong kernel! [ !KSU_NEXT || != size/hash ]</string>
-    <string name="home_failure_tip">Hãy yêu cầu nhà phát triển kernel của bạn tích hợp Wild KSU!</string>
+    <string name="home_failure">Chữ ký KernelSU Next v2 không tìm thấy trong kernel! [ !KSU_NEXT || != size/hash ]</string>
+    <string name="home_failure_tip">Hãy yêu cầu nhà phát triển kernel của bạn tích hợp KernelSU Next!</string>
     <string name="home_kernel">Phiên bản Kernel</string>
     <string name="hook_mode">Chế độ Hook</string>
     <string name="enable">Bật</string>
@@ -86,7 +86,7 @@
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Không khả dụng</string>
     <string name="use_overlay_fs">Dùng OverlayFS</string>
-    <string name="use_overlay_fs_summary">Chuyển đổi giữa việc sử dụng OverlayFS và Magic Mount cho hệ thống mount của Wild KSU.</string>
+    <string name="use_overlay_fs_summary">Chuyển đổi giữa việc sử dụng OverlayFS và Magic Mount cho hệ thống mount của KernelSU Next.</string>
     <string name="reboot_required">Cần khởi động lại</string>
     <string name="reboot_message">Các thay đổi sẽ có hiệu lực sau khi khởi động lại hệ thống. Bạn có muốn khởi động lại ngay bây giờ không?</string>
     <string name="module_restore">Khôi phục mô-đun</string>
@@ -118,12 +118,12 @@
     <string name="profile_selinux_context">Ngữ cảnh SELinux</string>
     <string name="profile_umount_modules">Umount mô-đun</string>
     <string name="failed_to_update_app_profile">Không thể cập nhật Hồ sơ ứng dụng cho %s</string>
-    <string name="require_kernel_version">Phiên bản Wild KSU hiện tại %1$d quá thấp để trình quản lý hoạt động bình thường. Vui lòng nâng cấp lên phiên bản %2$d hoặc cao hơn!</string>
+    <string name="require_kernel_version">Phiên bản KernelSU Next hiện tại %1$d quá thấp để trình quản lý hoạt động bình thường. Vui lòng nâng cấp lên phiên bản %2$d hoặc cao hơn!</string>
     <string name="settings_umount_modules_default">Umount mô-đun</string>
     <string name="settings_umount_modules_default_summary">Giá trị mặc định toàn cục cho \"Unmount mô-đun\" trong Hồ sơ ứng dụng. Nếu được bật, nó sẽ xóa tất cả các sửa đổi mô-đun đối với hệ thống cho các ứng dụng không có hồ sơ được đặt.</string>
     <string name="settings_susfs_toggle">Ẩn hook kprobes</string>
     <string name="settings_susfs_toggle_summary">Tùy chọn này vô hiệu hóa hook kprobes được tạo bởi ksu và thay vào đó kích hoạt hook không kprobes được nhúng, triển khai chức năng tương tự sẽ được áp dụng cho kernel không phải GKI, vốn không hỗ trợ kprobe.</string>
-    <string name="profile_umount_modules_summary">Bật tùy chọn này sẽ cho phép Wild KSU khôi phục bất kỳ tệp nào đã được sửa đổi bởi các mô-đun cho ứng dụng này.</string>
+    <string name="profile_umount_modules_summary">Bật tùy chọn này sẽ cho phép KernelSU Next khôi phục bất kỳ tệp nào đã được sửa đổi bởi các mô-đun cho ứng dụng này.</string>
     <string name="profile_selinux_domain">Tên miền</string>
     <string name="profile_selinux_rules">Quy tắc</string>
     <string name="module_update">Cập nhật</string>
@@ -186,9 +186,9 @@
     <string name="settings_uninstall_temporary">Gỡ cài đặt tạm thời</string>
     <string name="settings_uninstall_permanent">Gỡ cài đặt vĩnh viễn</string>
     <string name="settings_restore_stock_image">Khôi phục image gốc</string>
-    <string name="settings_uninstall_temporary_message">Gỡ cài đặt tạm thời Wild KSU, khôi phục về trạng thái ban đầu sau lần khởi động lại tiếp theo.</string>
-    <string name="settings_uninstall_permanent_message">Gỡ cài đặt Wild KSU (Root và tất cả các mô-đun) hoàn toàn và vĩnh viễn.</string>
-    <string name="settings_restore_stock_image_message">Khôi phục image gốc của nhà máy (Nếu có bản sao lưu), thường được sử dụng trước OTA; nếu bạn cần gỡ cài đặt Wild KSU, vui lòng sử dụng \"Gỡ cài đặt vĩnh viễn\".</string>
+    <string name="settings_uninstall_temporary_message">Gỡ cài đặt tạm thời KernelSU Next, khôi phục về trạng thái ban đầu sau lần khởi động lại tiếp theo.</string>
+    <string name="settings_uninstall_permanent_message">Gỡ cài đặt KernelSU Next (Root và tất cả các mô-đun) hoàn toàn và vĩnh viễn.</string>
+    <string name="settings_restore_stock_image_message">Khôi phục image gốc của nhà máy (Nếu có bản sao lưu), thường được sử dụng trước OTA; nếu bạn cần gỡ cài đặt KernelSU Next, vui lòng sử dụng \"Gỡ cài đặt vĩnh viễn\".</string>
     <string name="flashing">Đang flash</string>
     <string name="flash_success">Flash thành công</string>
     <string name="flash_failed">Flash thất bại</string>
@@ -278,7 +278,7 @@
     <string name="app_name_customization">Tên ứng dụng</string>
     <string name="app_name_customization_summary">Thay đổi tên ứng dụng hiển thị trong giao diện</string>
     <string name="app_name_kernelsu_next">KernelSU Next</string>
-    <string name="app_name_wild_ksu">Wild KSU</string>
+    <string name="app_name_wild_ksu">KernelSU Next</string>
     <string name="app_name_custom">Tùy chỉnh</string>
     <string name="app_name_custom_hint">Nhập tên ứng dụng muốn chỉnh</string>
     <string name="app_name_dialog_title">Chọn tên ứng dụng</string>

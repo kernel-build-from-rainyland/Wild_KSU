@@ -5,19 +5,19 @@
     <string name="issue_report_body_2">できる限り早めにご報告をお願いします！</string>
     <string name="issue_report_github">GitHubで報告</string>
     <string name="issue_report_telegram">Telegramで連絡</string>
-    <string name="issue_report_github_link">https://github.com/WildKernels/Wild_KSU/issues</string>
+    <string name="issue_report_github_link">https://github.com/KernelSU-Next/KernelSU-Next/issues</string>
     <string name="issue_report_telegram_link">https://t.me/Wild_Kernels/2</string>
     <string name="confirm">確認</string>
     <string name="home">ホーム</string>
     <string name="home_not_installed">未インストール</string>
     <string name="home_click_to_install">タップでインストールする</string>
     <string name="lkm_mode_deprecated">LKMモードは現在非推奨です！</string>
-    <string name="lkm_alternative_suggestion">GKIカーネルをインストールするか、Wild KSUをデバイスに統合して下さい。</string>
+    <string name="lkm_alternative_suggestion">GKIカーネルをインストールするか、KernelSU Nextをデバイスに統合して下さい。</string>
     <string name="home_working">動作中</string>
     <string name="home_working_version">バージョン: %d</string>
     <string name="home_module_update_count">更新可能: %d</string>
-    <string name="home_failure">カーネルにWild KSU v2の署名がありません！ [ !KSU_NEXT || != size/hash ]</string>
-    <string name="home_failure_tip">カーネル開発者にWild KSUの統合を依頼して下さい！</string>
+    <string name="home_failure">カーネルにKernelSU Next v2の署名がありません！ [ !KSU_NEXT || != size/hash ]</string>
+    <string name="home_failure_tip">カーネル開発者にKernelSU Nextの統合を依頼して下さい！</string>
     <string name="home_kernel">カーネルバージョン</string>
     <string name="hook_mode">フックモード</string>
     <string name="enable">有効化</string>
@@ -86,7 +86,7 @@
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Unavailable</string>
     <string name="use_overlay_fs">Use OverlayFS</string>
-    <string name="use_overlay_fs_summary">Toggle between using OverlayFS over Magic Mount for Wild KSU\'s mount system.</string>
+    <string name="use_overlay_fs_summary">Toggle between using OverlayFS over Magic Mount for KernelSU Next\'s mount system.</string>
     <string name="reboot_required">Reboot required</string>
     <string name="reboot_message">The changes will take effect after the system restart. Do you want to reboot now?</string>
     <string name="module_restore">Restore module</string>
@@ -118,12 +118,12 @@
     <string name="profile_selinux_context">SELinuxコンテキスト</string>
     <string name="profile_umount_modules">モジュールをアンマウント</string>
     <string name="failed_to_update_app_profile">%s のアプリプロファイルの更新に失敗しました</string>
-    <string name="require_kernel_version">現在のWild KSUのバージョン (%1$d) は古過ぎるため、マネージャーが正常に動作しません。より新しいバージョン (%2$d以上) に更新して下さい！</string>
+    <string name="require_kernel_version">現在のKernelSU Nextのバージョン (%1$d) は古過ぎるため、マネージャーが正常に動作しません。より新しいバージョン (%2$d以上) に更新して下さい！</string>
     <string name="settings_umount_modules_default">モジュールをアンマウント</string>
     <string name="settings_umount_modules_default_summary">アプリプロファイルにおける「モジュールのアンマウント」の共通の既定値です。有効にすると、プロファイルが設定されていないアプリに対して、モジュールによるシステムの変更を全て削除します。</string>
     <string name="settings_susfs_toggle">kprobesフックを隠す</string>
     <string name="settings_susfs_toggle_summary">このオプションは、ksuによって作成されたkprobesフックを無効にし、代わりに組み込みの非kprobesフックを有効にします。これにより、kprobeをサポートしていない非GKIカーネルに適用されるものと同じ機能が実装されます。</string>
-    <string name="profile_umount_modules_summary">Enabling this option will allow Wild KSU to restore any modified files by the modules for this app.</string>
+    <string name="profile_umount_modules_summary">Enabling this option will allow KernelSU Next to restore any modified files by the modules for this app.</string>
     <string name="profile_selinux_domain">ドメイン</string>
     <string name="profile_selinux_rules">ルール</string>
     <string name="module_update">更新</string>
@@ -186,9 +186,9 @@
     <string name="settings_uninstall_temporary">Uninstall temporarily</string>
     <string name="settings_uninstall_permanent">Uninstall permanently</string>
     <string name="settings_restore_stock_image">Restore stock image</string>
-    <string name="settings_uninstall_temporary_message">Temporarily uninstall Wild KSU, restore to original state after next reboot.</string>
-    <string name="settings_uninstall_permanent_message">Uninstalling Wild KSU (Root and all modules) completely and permanently.</string>
-    <string name="settings_restore_stock_image_message">(バックアップが存在していれば)工場出荷時のイメージを復元します。通常はOTAの前に使用します。Wild KSUをアンインストールする必要がある場合は、「完全にアンインストール」を使用して下さい。</string>
+    <string name="settings_uninstall_temporary_message">Temporarily uninstall KernelSU Next, restore to original state after next reboot.</string>
+    <string name="settings_uninstall_permanent_message">Uninstalling KernelSU Next (Root and all modules) completely and permanently.</string>
+    <string name="settings_restore_stock_image_message">(バックアップが存在していれば)工場出荷時のイメージを復元します。通常はOTAの前に使用します。KernelSU Nextをアンインストールする必要がある場合は、「完全にアンインストール」を使用して下さい。</string>
     <string name="flashing">書き込み中</string>
     <string name="flash_success">書き込みに成功</string>
     <string name="flash_failed">書き込みに失敗</string>
@@ -278,7 +278,7 @@
     <string name="app_name_customization">App Name</string>
     <string name="app_name_customization_summary">Change the app name displayed in the interface</string>
     <string name="app_name_kernelsu_next">KernelSU Next</string>
-    <string name="app_name_wild_ksu">Wild KSU</string>
+    <string name="app_name_wild_ksu">KernelSU Next</string>
     <string name="app_name_custom">Custom</string>
     <string name="app_name_custom_hint">Enter custom app name</string>
     <string name="app_name_dialog_title">Select App Name</string>

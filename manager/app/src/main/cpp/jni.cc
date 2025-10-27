@@ -7,7 +7,7 @@
 
 #include "ksu.h"
 
-#define LOG_TAG "Wild KSU"
+#define LOG_TAG "KernelSU Next"
 #ifdef NDEBUG
 #define LOGD(...) (void)0
 #else

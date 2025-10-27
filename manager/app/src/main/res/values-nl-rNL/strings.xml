@@ -5,19 +5,19 @@
     <string name="issue_report_body_2">Meld het zo snel mogelijk!</string>
     <string name="issue_report_github">Meld het op GitHub</string>
     <string name="issue_report_telegram">Contact opnemen via Telegram</string>
-    <string name="issue_report_github_link">https://github.com/WildKernels/Wild_KSU/issues</string>
+    <string name="issue_report_github_link">https://github.com/KernelSU-Next/KernelSU-Next/issues</string>
     <string name="issue_report_telegram_link">https://t.me/Wild_Kernels/2</string>
     <string name="confirm">Bevestigen</string>
     <string name="home">Beginscherm</string>
     <string name="home_not_installed">Niet geïnstalleerd</string>
     <string name="home_click_to_install">Klik om te installeren</string>
     <string name="lkm_mode_deprecated">LKM modus wordt nu niet meer ondersteund!</string>
-    <string name="lkm_alternative_suggestion">Installeer GKI-kernel of integreer Wild KSU op uw apparaat.</string>
+    <string name="lkm_alternative_suggestion">Installeer GKI-kernel of integreer KernelSU Next op uw apparaat.</string>
     <string name="home_working">Bezig</string>
     <string name="home_working_version">Versie: %d</string>
     <string name="home_module_update_count">Bijwerken: %d</string>
-    <string name="home_failure">Wild KSU v2-handtekening is niet gevonden in de kernel! [ !KSU_NEXT || != grootte/hash ]</string>
-    <string name="home_failure_tip">Vraag uw kernelontwikkelaar om Wild KSU te integreren!</string>
+    <string name="home_failure">KernelSU Next v2-handtekening is niet gevonden in de kernel! [ !KSU_NEXT || != grootte/hash ]</string>
+    <string name="home_failure_tip">Vraag uw kernelontwikkelaar om KernelSU Next te integreren!</string>
     <string name="home_kernel">Kernel-Versie</string>
     <string name="hook_mode">Hook-Modus</string>
     <string name="enable">Inschakelen</string>
@@ -86,7 +86,7 @@
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Niet beschikbaar</string>
     <string name="use_overlay_fs">OverlayFS gebruiken</string>
-    <string name="use_overlay_fs_summary">Schakel tussen het gebruik van OverlayFS en Magic Mount voor het Mount-Systeem van Wild KSU.</string>
+    <string name="use_overlay_fs_summary">Schakel tussen het gebruik van OverlayFS en Magic Mount voor het Mount-Systeem van KernelSU Next.</string>
     <string name="reboot_required">Opnieuw opstarten vereist</string>
     <string name="reboot_message">De wijzigingen worden van kracht na het herstarten van het systeem. Wilt u nu opnieuw opstarten?</string>
     <string name="module_restore">Module terugzetten</string>
@@ -118,12 +118,12 @@
     <string name="profile_selinux_context">SELinux-Context</string>
     <string name="profile_umount_modules">Ontkoppel modules</string>
     <string name="failed_to_update_app_profile">Kan App-Profiel niet bijwerken voor: %s</string>
-    <string name="require_kernel_version">De huidige Wild KSU-Versie %1$d is te laag om de Manager correct te laten werken. Upgrade naar versie %2$d of hoger!</string>
+    <string name="require_kernel_version">De huidige KernelSU Next-Versie %1$d is te laag om de Manager correct te laten werken. Upgrade naar versie %2$d of hoger!</string>
     <string name="settings_umount_modules_default">Ontkoppel modules</string>
     <string name="settings_umount_modules_default_summary">De globale standaardwaarde voor \"Ontkoppel modules\" in App-Profiel. Indien ingeschakeld, worden alle Modulewijzigingen aan het Systeem verwijderd voor apps die geen profiel hebben ingesteld.</string>
     <string name="settings_susfs_toggle">Verberg Kprobes-Hook</string>
-    <string name="settings_susfs_toggle_summary">Deze optie schakelt de kprobes-Hook uit die door Wild KSU is aangemaakt en activeert in plaats daarvan de ingebouwde niet-kprobes-Hook, die dezelfde functionaliteit implementeert die zou worden toegepast op een Niet-GKI-Kernel, die geen kprobe ondersteunt.</string>
-    <string name="profile_umount_modules_summary">Door deze optie in te schakelen kan Wild KSU alle door de modules gewijzigde bestanden voor deze app herstellen.</string>
+    <string name="settings_susfs_toggle_summary">Deze optie schakelt de kprobes-Hook uit die door KernelSU Next is aangemaakt en activeert in plaats daarvan de ingebouwde niet-kprobes-Hook, die dezelfde functionaliteit implementeert die zou worden toegepast op een Niet-GKI-Kernel, die geen kprobe ondersteunt.</string>
+    <string name="profile_umount_modules_summary">Door deze optie in te schakelen kan KernelSU Next alle door de modules gewijzigde bestanden voor deze app herstellen.</string>
     <string name="profile_selinux_domain">Domein</string>
     <string name="profile_selinux_rules">Regels</string>
     <string name="module_update">Bijwerken</string>
@@ -188,9 +188,9 @@
     <string name="settings_uninstall_temporary">Tijdelijk deïnstalleren</string>
     <string name="settings_uninstall_permanent">Permanent deïnstalleren</string>
     <string name="settings_restore_stock_image">Herstel Stock-Image</string>
-    <string name="settings_uninstall_temporary_message">Wild KSU tijdelijk deïnstalleren, herstel naar oorspronkelijke staat na volgende herstart.</string>
-    <string name="settings_uninstall_permanent_message">Wild KSU (Root en alle Modules) volledig en permanent deïnstalleren.</string>
-    <string name="settings_restore_stock_image_message">Herstel de originele fabrieksinstallatie (indien een back-up bestaat), meestal gebruikt vóór OTA; als u Wild KSU wilt deïnstalleren, gebruik dan \"Permanent deïnstalleren\".</string>
+    <string name="settings_uninstall_temporary_message">KernelSU Next tijdelijk deïnstalleren, herstel naar oorspronkelijke staat na volgende herstart.</string>
+    <string name="settings_uninstall_permanent_message">KernelSU Next (Root en alle Modules) volledig en permanent deïnstalleren.</string>
+    <string name="settings_restore_stock_image_message">Herstel de originele fabrieksinstallatie (indien een back-up bestaat), meestal gebruikt vóór OTA; als u KernelSU Next wilt deïnstalleren, gebruik dan \"Permanent deïnstalleren\".</string>
     <string name="flashing">Flashen</string>
     <string name="flash_success">Het flashen is gelukt</string>
     <string name="flash_failed">Het flashen is mislukt</string>
@@ -280,7 +280,7 @@
     <string name="app_name_customization">App-Naam</string>
     <string name="app_name_customization_summary">Wijzig de App-Naam die wordt Weergegeven in de Interface</string>
     <string name="app_name_kernelsu_next">KernelSU Next</string>
-    <string name="app_name_wild_ksu">Wild KSU</string>
+    <string name="app_name_wild_ksu">KernelSU Next</string>
     <string name="app_name_custom">Aangepast</string>
     <string name="app_name_custom_hint">Voer aangepaste App-Naam in</string>
     <string name="app_name_dialog_title">App-Naam selecteren</string>

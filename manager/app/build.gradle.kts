@@ -26,7 +26,7 @@ android {
     namespace = "com.rifsxd.ksunext"
 
     defaultConfig {
-        applicationId = "com.twj.wksu"
+        applicationId = "com.rifsxd.ksunext"
     }
 
     buildTypes {
@@ -72,7 +72,7 @@ android {
     applicationVariants.all {
         outputs.forEach {
             val output = it as BaseVariantOutputImpl
-            output.outputFileName = "Wild_KSU_${managerVersionName}_${managerVersionCode}-$name.apk"
+            output.outputFileName = "KernelSU_Next_${managerVersionName}_${managerVersionCode}-$name.apk"
         }
         kotlin.sourceSets {
             getByName(name) {

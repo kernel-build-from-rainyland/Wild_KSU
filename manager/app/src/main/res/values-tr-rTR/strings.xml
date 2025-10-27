@@ -5,20 +5,20 @@
     <string name="issue_report_body_2">En kısa sürede bildirin!</string>
     <string name="issue_report_github">GitHub da rapor edin</string>
     <string name="issue_report_telegram">Telegram aracılığıyla iletişim kurun</string>
-    <string name="issue_report_github_link">https://github.com/WildKernels/Wild_KSU/i ssues</string>
+    <string name="issue_report_github_link">https://github.com/KernelSU-Next/KernelSU-Next/i ssues</string>
     <string name="issue_report_telegram_link">https://t.me/Wild_Kernels/2</string>
     <string name="confirm">Onayla</string>
     <string name="home">Ana Ekran</string>
     <string name="home_not_installed">Kurulu değil</string>
     <string name="home_click_to_install">Yüklemek için tıklayın</string>
     <string name="lkm_mode_deprecated">LKM modu artık kullanımdan kaldırıldı!</string>
-    <string name="lkm_alternative_suggestion">GKI çekirdeğini yükleyin veya Wild KSU\'yu cihazınıza entegre edin.</string>
+    <string name="lkm_alternative_suggestion">GKI çekirdeğini yükleyin veya KernelSU Next\'yu cihazınıza entegre edin.</string>
     <string name="home_working">Çalışıyor</string>
     <string name="home_working_version">Sürüm: %d</string>
     <string name="home_module_update_count">Güncellemeler: %d</string>
-    <string name="home_failure">Çekirdekte Wild KSU v2 imzası bulunamadı!
+    <string name="home_failure">Çekirdekte KernelSU Next v2 imzası bulunamadı!
 [!KSU_NEXT || != boyut/karma ]</string>
-    <string name="home_failure_tip">Çekirdek geliştiricinizden Wild KSU- yu entegre etmesini isteyin!</string>
+    <string name="home_failure_tip">Çekirdek geliştiricinizden KernelSU Next- yu entegre etmesini isteyin!</string>
     <string name="home_kernel">Çekirdek Sürümü</string>
     <string name="hook_mode">Kanca Modülü</string>
     <string name="enable">Etkinleştir</string>
@@ -88,7 +88,7 @@
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Kullanılamıyor</string>
     <string name="use_overlay_fs">OverlayFS Kullan</string>
-    <string name="use_overlay_fs_summary">Wild KSU\'nun binek sistemi için Magic Mount yerine OverlayFS kullanımı arasında geçiş yapın.</string>
+    <string name="use_overlay_fs_summary">KernelSU Next\'nun binek sistemi için Magic Mount yerine OverlayFS kullanımı arasında geçiş yapın.</string>
     <string name="reboot_required">Yeniden Başlatma Gerekli</string>
     <string name="reboot_message">Değişiklikler sistem yeniden başlatıldıktan sonra geçerli olacaktır. Şimdi yeniden başlatmak ister misiniz?</string>
     <string name="module_restore">Modülü Geri Yükle</string>
@@ -120,14 +120,14 @@
     <string name="profile_selinux_context">SELinux bağlamı</string>
     <string name="profile_umount_modules">Modüllerin bağlantısını kes</string>
     <string name="failed_to_update_app_profile">Uygulama profili güncellenmedi %s</string>
-    <string name="require_kernel_version">Mevcut Wild KSU sürümü %1$d, yöneticinin düzgün çalışması için çok düşük.
+    <string name="require_kernel_version">Mevcut KernelSU Next sürümü %1$d, yöneticinin düzgün çalışması için çok düşük.
 
 Lütfen %2$d veya daha yüksek bir sürüme yükseltin!</string>
     <string name="settings_umount_modules_default">Modüllerin bağlantısını kes</string>
     <string name="settings_umount_modules_default_summary">Uygulama Profilindeki \"Modülleri kaldır\" için genel varsayılan değer. Etkinleştirildiğinde, profili ayarlanmamış uygulamalar için sistemdeki tüm modül değişiklikleri kaldırılır.</string>
     <string name="settings_susfs_toggle">Kprobes kancalarını gizle</string>
     <string name="settings_susfs_toggle_summary">Bu seçenek, ksu tarafından oluşturulan kprobes kancasını devre dışı bırakır ve bunun yerine, kprobe\'u desteklemeyen GKI olmayan bir çekirdeğe uygulanacak aynı işlevselliği uygulayan gömülü kprobes olmayan kancayı etkinleştirir.</string>
-    <string name="profile_umount_modules_summary">Bu seçeneğin etkinleştirilmesi, Wild KSU\'nun bu uygulama için modüller tarafından değiştirilen tüm dosyaları geri yüklemesine olanak tanır.</string>
+    <string name="profile_umount_modules_summary">Bu seçeneğin etkinleştirilmesi, KernelSU Next\'nun bu uygulama için modüller tarafından değiştirilen tüm dosyaları geri yüklemesine olanak tanır.</string>
     <string name="profile_selinux_domain">Alan Adı</string>
     <string name="profile_selinux_rules">Kurallar</string>
     <string name="module_update">Güncelleme</string>
@@ -191,9 +191,9 @@ Lütfen %2$d veya daha yüksek bir sürüme yükseltin!</string>
     <string name="settings_uninstall_temporary">Geçici olarak kaldır</string>
     <string name="settings_uninstall_permanent">Kalıcı olarak kaldır</string>
     <string name="settings_restore_stock_image">Stok görselini geri yükle</string>
-    <string name="settings_uninstall_temporary_message">Wild KSU\'yu geçici olarak kaldırın, bir sonraki yeniden başlatmanın ardından orijinal durumuna geri yükleyin.</string>
-    <string name="settings_uninstall_permanent_message">Wild KSU\'yu (Root ve tüm modülleri) tamamen ve kalıcı olarak kaldırın.</string>
-    <string name="settings_restore_stock_image_message">Stok fabrika imajını geri yükleyin (Yedekleme varsa), genellikle OTA\'dan önce kullanılır; Wild KSU\'yu kaldırmanız gerekirse, lütfen \"Kalıcı olarak kaldır\"ı kullanın.</string>
+    <string name="settings_uninstall_temporary_message">KernelSU Next\'yu geçici olarak kaldırın, bir sonraki yeniden başlatmanın ardından orijinal durumuna geri yükleyin.</string>
+    <string name="settings_uninstall_permanent_message">KernelSU Next\'yu (Root ve tüm modülleri) tamamen ve kalıcı olarak kaldırın.</string>
+    <string name="settings_restore_stock_image_message">Stok fabrika imajını geri yükleyin (Yedekleme varsa), genellikle OTA\'dan önce kullanılır; KernelSU Next\'yu kaldırmanız gerekirse, lütfen \"Kalıcı olarak kaldır\"ı kullanın.</string>
     <string name="flashing">Flaşlanıyor</string>
     <string name="flash_success">Flaş Başarılı</string>
     <string name="flash_failed">Flaş Başarısız</string>
@@ -283,7 +283,7 @@ Lütfen %2$d veya daha yüksek bir sürüme yükseltin!</string>
     <string name="app_name_customization">Uygulama İsmi</string>
     <string name="app_name_customization_summary">Arayüzde görüntülenen uygulama adını değiştirin</string>
     <string name="app_name_kernelsu_next">KernelSU Next</string>
-    <string name="app_name_wild_ksu">Wild KSU</string>
+    <string name="app_name_wild_ksu">KernelSU Next</string>
     <string name="app_name_custom">Özel</string>
     <string name="app_name_custom_hint">Özel uygulama adını girin</string>
     <string name="app_name_dialog_title">Uygulama Adını Seçin</string>

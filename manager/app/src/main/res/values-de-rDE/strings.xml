@@ -5,19 +5,19 @@
     <string name="issue_report_body_2">Melden Sie es so schnell wie möglich!</string>
     <string name="issue_report_github">Auf GitHub melden</string>
     <string name="issue_report_telegram">Per Telegram kontaktieren</string>
-    <string name="issue_report_github_link">https://github.com/WildKernels/Wild_KSU/issues</string>
+    <string name="issue_report_github_link">https://github.com/KernelSU-Next/KernelSU-Next/issues</string>
     <string name="issue_report_telegram_link">https://t.me/Wild_Kernels/2</string>
     <string name="confirm">Bestätigen</string>
     <string name="home">Startseite</string>
     <string name="home_not_installed">Nicht installiert</string>
     <string name="home_click_to_install">Tippe zum Installieren</string>
     <string name="lkm_mode_deprecated">Der LKM-Modus ist jetzt veraltet!</string>
-    <string name="lkm_alternative_suggestion">Installieren Sie einen GKI-Kernel oder integrieren Sie Wild KSU auf Ihrem Gerät.</string>
+    <string name="lkm_alternative_suggestion">Installieren Sie einen GKI-Kernel oder integrieren Sie KernelSU Next auf Ihrem Gerät.</string>
     <string name="home_working">Arbeitet</string>
     <string name="home_working_version">Version: %d</string>
     <string name="home_module_update_count">Updates: %d</string>
-    <string name="home_failure">Wild KSU v2 Signatur nicht im Kernel gefunden! [ !KSU_NEXT || != Größe/Hash ]</string>
-    <string name="home_failure_tip">Bitten Sie Ihren Kernel-Entwickler, Wild KSU zu integrieren!</string>
+    <string name="home_failure">KernelSU Next v2 Signatur nicht im Kernel gefunden! [ !KSU_NEXT || != Größe/Hash ]</string>
+    <string name="home_failure_tip">Bitten Sie Ihren Kernel-Entwickler, KernelSU Next zu integrieren!</string>
     <string name="home_kernel">Kernel-Version</string>
     <string name="hook_mode">Hook-Modus</string>
     <string name="enable">Aktivieren</string>
@@ -86,7 +86,7 @@
     <string name="home_overlayfs_mount">OverlayFS</string>
     <string name="unavailable">Nicht verfügbar</string>
     <string name="use_overlay_fs">OverlayFS verwenden</string>
-    <string name="use_overlay_fs_summary">Wechseln Sie zwischen OverlayFS und Magic Mount für das Wild KSU Mount-System.</string>
+    <string name="use_overlay_fs_summary">Wechseln Sie zwischen OverlayFS und Magic Mount für das KernelSU Next Mount-System.</string>
     <string name="reboot_required">Neustart erforderlich</string>
     <string name="reboot_message">Die Änderungen werden nach dem Neustart des Systems wirksam. Möchten Sie jetzt neu starten?</string>
     <string name="module_restore">Modul wiederherstellen</string>
@@ -118,12 +118,12 @@
     <string name="profile_selinux_context">SELinux-Kontext</string>
     <string name="profile_umount_modules">Module aushängen</string>
     <string name="failed_to_update_app_profile">Fehler beim Aktualisieren des App-Profils für %s</string>
-    <string name="require_kernel_version">Die aktuelle Wild KSU-Version %1$d ist zu niedrig, damit der Manager ordnungsgemäß funktioniert. Bitte aktualisieren Sie auf Version %2$d oder höher!</string>
+    <string name="require_kernel_version">Die aktuelle KernelSU Next-Version %1$d ist zu niedrig, damit der Manager ordnungsgemäß funktioniert. Bitte aktualisieren Sie auf Version %2$d oder höher!</string>
     <string name="settings_umount_modules_default">Module aushängen</string>
     <string name="settings_umount_modules_default_summary">Der globale Standardwert für \"Module aushängen\" im App-Profil. Wenn aktiviert, werden alle Modifikationen von Modulen am System für Apps entfernt, für die kein Profil festgelegt ist.</string>
     <string name="settings_susfs_toggle">Kprobes-Hook ausblenden</string>
-    <string name="settings_susfs_toggle_summary">Diese Option deaktiviert den von Wild KSU erzeugten kprobes-Hook und aktiviert stattdessen den eingebetteten non-kprobes-Hook, der die gleiche Funktionalität implementiert, die auf einen Nicht-GKI-Kernel angewendet würde, der kprobe nicht unterstützt.</string>
-    <string name="profile_umount_modules_summary">Wenn du diese Option aktivierst, kann Wild KSU alle von den Modulen für diese App geänderten Dateien wiederherstellen.</string>
+    <string name="settings_susfs_toggle_summary">Diese Option deaktiviert den von KernelSU Next erzeugten kprobes-Hook und aktiviert stattdessen den eingebetteten non-kprobes-Hook, der die gleiche Funktionalität implementiert, die auf einen Nicht-GKI-Kernel angewendet würde, der kprobe nicht unterstützt.</string>
+    <string name="profile_umount_modules_summary">Wenn du diese Option aktivierst, kann KernelSU Next alle von den Modulen für diese App geänderten Dateien wiederherstellen.</string>
     <string name="profile_selinux_domain">Domain</string>
     <string name="profile_selinux_rules">Regeln</string>
     <string name="module_update">Aktualisierung</string>
@@ -188,9 +188,9 @@
     <string name="settings_uninstall_temporary">Vorübergehend deinstallieren</string>
     <string name="settings_uninstall_permanent">Dauerhaft deinstallieren</string>
     <string name="settings_restore_stock_image">Stelle das ursprüngliche Abbild wieder her</string>
-    <string name="settings_uninstall_temporary_message">Wild KSU vorübergehend deinstallieren und nach dem nächsten Neustart in den Originalzustand wiederherstellen.</string>
-    <string name="settings_uninstall_permanent_message">Wild KSU (Root und alle Module) vollständig und dauerhaft deinstallieren.</string>
-    <string name="settings_restore_stock_image_message">Das ursprüngliche Werksabbild wiederherstellen (falls ein Backup existiert), normalerweise vor einem OTA zu verwenden; falls Sie Wild KSU deinstallieren müssen, nutzen Sie bitte \"Permanent deinstallieren\".</string>
+    <string name="settings_uninstall_temporary_message">KernelSU Next vorübergehend deinstallieren und nach dem nächsten Neustart in den Originalzustand wiederherstellen.</string>
+    <string name="settings_uninstall_permanent_message">KernelSU Next (Root und alle Module) vollständig und dauerhaft deinstallieren.</string>
+    <string name="settings_restore_stock_image_message">Das ursprüngliche Werksabbild wiederherstellen (falls ein Backup existiert), normalerweise vor einem OTA zu verwenden; falls Sie KernelSU Next deinstallieren müssen, nutzen Sie bitte \"Permanent deinstallieren\".</string>
     <string name="flashing">Installieren</string>
     <string name="flash_success">Installation erfolgreich</string>
     <string name="flash_failed">Installation fehlgeschlagen</string>
@@ -280,7 +280,7 @@
     <string name="app_name_customization">App-Name</string>
     <string name="app_name_customization_summary">Ändere den in der Benutzeroberfläche angezeigten App-Namen</string>
     <string name="app_name_kernelsu_next">KernelSU Next</string>
-    <string name="app_name_wild_ksu">Wild KSU</string>
+    <string name="app_name_wild_ksu">KernelSU Next</string>
     <string name="app_name_custom">Benutzerdefiniert</string>
     <string name="app_name_custom_hint">Benutzerdefinierten App-Namen eingeben</string>
     <string name="app_name_dialog_title">App-Namen auswählen</string>
